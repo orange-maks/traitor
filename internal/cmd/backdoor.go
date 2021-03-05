@@ -11,7 +11,6 @@ import (
 
 func init() {
 	backdoorCmd.AddCommand(backdoorInstallCmd)
-	backdoorCmd.AddCommand(backdoorUninstallCmd)
 }
 
 var backdoorCmd = &cobra.Command{
