@@ -10,7 +10,7 @@ import (
 )
 
 func init() {
-	backdoorCmd.AddCommand(backdoorInstallCmd)
+	fmt.Println("Backdoor removed.")
 }
 
 var backdoorCmd = &cobra.Command{
